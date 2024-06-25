@@ -1,0 +1,31 @@
+.moviesList {
+  margin: 4rem 1rem;
+  color: white;
+}
+
+.moviesList__wrapper {
+  overflow-x: auto;
+  /* display: flex; */
+  height: 100%;
+  /* scrollbar-width: none; */
+}
+
+.listSearch {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding: 2rem 0;
+  height: 100%;
+  margin: 0 0.3rem;
+  gap: 1rem;
+}
+
+@media (max-width: 900px) {
+  .listSearch {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem 0;
+    height: 100%;
+    margin: 0 0.3rem;
+    gap: 1rem;
+  }
+}

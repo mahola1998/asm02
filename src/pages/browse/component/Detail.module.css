@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  color: white;
+}
+
+.container .detail,
+.container iframe,
+.container img {
+  width: 50%;
+  margin: 1rem;
+}
+
+.detail h1 {
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.rate {
+  padding: 1rem;
+}
+
+.detail p {
+  padding: 1rem;
+}
+
+.backdrop {
+  width: 100%;
+}

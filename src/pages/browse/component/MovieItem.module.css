@@ -1,0 +1,20 @@
+.movieItem {
+  height: 20vh;
+}
+
+.movieItemPoster {
+  height: 30vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  height: 100%;
+}
+
+.movieItem img:hover,
+.movieItemPoster img:hover {
+  transform: scale(1.2);
+}

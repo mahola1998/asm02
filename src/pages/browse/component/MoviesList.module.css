@@ -1,0 +1,36 @@
+.moviesList {
+  margin: 4rem 1rem;
+  color: white;
+}
+
+.moviesList__wrapper {
+  overflow-x: auto;
+  /* display: flex; */
+  height: 100%;
+  /* scrollbar-width: none; */
+}
+
+.moviesList__wrapper::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.moviesList__wrapper::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 10px;
+}
+
+.moviesList__wrapper::-webkit-scrollbar-thumb {
+  background: rgb(30, 30, 30);
+  border-radius: 10px;
+}
+
+.moviesList__wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgb(50, 50, 50);
+}
+
+.listBrowse {
+  padding: 2rem 0;
+  height: 100%;
+  margin: 0 0.3rem;
+  display: flex;
+  gap: 1rem;
+}
